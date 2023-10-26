@@ -1,0 +1,44 @@
+/* Estilos personalizados para el tema oscuro con tonos morados */
+body {
+  background-color: #2E2E3A;
+  color: #D9D9D9;
+}
+
+/* Login / SignUp */
+
+.card {
+  background-color: #9696CC;
+  border: none;
+  color: #D9D9D9;
+}
+
+.card-header {
+  background-color: #574AE2;
+  color: #D9D9D9;
+}
+
+.btn-primary {
+  background-color: #574AE2 !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4637A3 !important;
+  border: none;
+}
+
+/* Estilos personalizados para el modal */
+.modal-content {
+  background-color: #FF7F27;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  background-color: #FF7F27;
+  border-top: none;
+  color: #FFFFFF;
+}

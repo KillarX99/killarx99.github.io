@@ -1,0 +1,173 @@
+/* Fuente Global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NavBar */
+#navBar{
+	display: flex;
+	justify-content: center;
+}
+
+#menuLogo {
+	margin-left: 100px;
+}
+
+body {
+	padding-top: 100px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+#menuText {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+#menuIcon {
+	margin-right: 100px;
+}
+
+/* Tam Icons */
+#menuIcon .nav-item img {
+	width: 22px;
+	height: 22px;
+}
+
+/* Responsivo */
+@media (max-width: 992px) {
+	#menuLogo {
+		margin-left: 10px;
+	}
+
+	#menuText {
+		font-size: 22px;
+	}
+
+	#menuText, #menuIcon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#menuIcon {
+		flex-direction: row;
+	}
+	
+	#menuIcon > * {
+		margin: 0px 20px;
+	}
+
+	#menuIcon .nav-item img {
+		width: 27px;
+		height: 27px;
+	}
+}
+
+
+.custom-navbar .navbar-toggler,
+.custom-navbar .navbar-toggler:focus,
+.custom-navbar .navbar-toggler:active,
+.custom-navbar .navbar-toggler:hover {
+	margin-right: 10px;
+	border-radius: 8px;
+	width: 50px;
+	height: 35px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Pie de pagina */
+footer {
+	text-align: center;
+	padding: 6px;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.floating-btn.active {
+    display: block;
+}
+
+/* Items de contenido */
+.app-icon,
+.game-cover {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.btn-download {
+	display: inline-block;
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: none;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+	background-color: #45a049;
+}
+
+.app-container,
+.game-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.app,
+.game {
+	width: 93%;
+	border: 1px solid #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	transition: transform 0.3s ease;
+}
+
+.app:hover,
+.game:hover {
+	transform: scale(1.05);
+}
+
+/* Nuevo comentario */
+
+.comment-container {
+	margin-top: 50px;
+}
+
+.comment {
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.comment-form {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+}

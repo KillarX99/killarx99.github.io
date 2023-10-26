@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Home</title>
+	<link rel="icon" href="img/icon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/master.css">
+	<link id="themeStylesheet" rel="stylesheet" href="css/dark.css">
+	<!-- Fuente personalizada -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+	<!-- Barra de navegacion -->
+	<div class="navBar">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark custom-navbar">
+
+			<a class="navbar-brand" href="#" id="menuLogo">
+				<img src="img/Logo.png" width="129" height="50" alt="Logo">
+			</a>
+			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-text">&#x2630;</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav" id="menuText">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="apps.html">Apps</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="games.html">Games</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav" id="menuIcon">
+					<li class="nav-item">
+						<a class="nav-link" href="login.html"><img src="img/login.png" alt="Login"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="signUp.html"><img src="img/signUp.png" alt="SignUp"></a>
+					</li>
+					<li class="nav-item" id="themeButton">
+						<a class="nav-link" href="#"><img src="img/sun.png" alt="Sun"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<!-- Contenido -->
+	<div class="container my-5">
+        <section>
+			<h1 class="text-center mb-4">Bienvenido a nuestra Plataforma de Apps y Juegos Profesionales</h1>
+			<p class="text-center mb-4">Descubre las mejores aplicaciones y juegos para potenciar tu creatividad y entretenimiento.<br><br></p>
+			
+			<!-- Carrusel de imágenes -->
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="img/carousel1.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="img/carousel2.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="img/carousel3.jpg" alt="Third slide">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="img/carousel4.jpg" alt="Fourth slide">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="img/carousel5.jpg" alt="Fifth slide">
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="img/carousel6.jpg" alt="Fifth slide">
+				</div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+			<!-- nuevos -->
+            <h2 class="text-center mb-4"><br>Recién añadidas</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="app text-center">
+                        <img src="img/action-app-icon.jpg" alt="Icono de la aplicación Action" class="app-icon">
+                        <h3>Action</h3>
+                        <p>¡Experimenta la emoción de la acción extrema con nuestro emocionante juego! Derrota a los enemigos y completa misiones desafiantes.</p>
+                        <a href="https://www.actionrecorder.com/es" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="app text-center">
+                        <img src="img/autocad-icon.jpg" alt="Icono de Autocad" class="app-icon">
+                        <h3>Autocad</h3>
+                        <p>Crea diseños impresionantes en 2D y 3D con Autocad. Herramienta esencial para arquitectos y diseñadores.</p>
+                        <a href="https://www.autodesk.mx/" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-3 mb-4">
+                    <div class="app text-center">
+                        <img src="img/adobe-suite-icon.jpg" alt="Icono de la suite Adobe" class="app-icon">
+                        <h3>Suite Adobe</h3>
+                        <p>Descubre las últimas herramientas creativas en nuestra suite Adobe. Edita imágenes, videos y más con facilidad.</p>
+                        <a href="https://www.adobe.com/" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="app text-center">
+                        <img src="img/microsoft-office-icon.jpg" alt="Icono de Microsoft Office" class="app-icon">
+                        <h3>Suite Microsoft Office</h3>
+                        <p>Accede a Word, Excel, PowerPoint y más con nuestra suite Microsoft Office. Herramientas poderosas para el trabajo y la escuela.</p>
+                        <a href="https://www.office.com/" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-3 mb-4">
+                    <div class="game text-center">
+                        <img src="img/gta-v-game-cover.jpg" alt="Portada de GTA V" class="game-cover">
+                        <h3>Grand Theft Auto V</h3>
+                        <p>Explora el mundo abierto de GTA V, realiza misiones emocionantes y vive una vida de crimen en esta experiencia de juego épica.</p>
+                        <a href="https://www.rockstargames.com/mx/gta-v" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="game text-center">
+                        <img src="img/minecraft-game-cover.jpg" alt="Portada de Minecraft" class="game-cover">
+                        <h3>Minecraft</h3>
+                        <p>Sumérgete en un mundo de bloques y aventuras en Minecraft. Construye, explora y sobrevive en este emocionante juego.</p>
+                        <a href="https://www.minecraft.net/es-es" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="game text-center">
+                        <img src="img/pubg-game-cover.jpg" alt="Portada de PUBG" class="game-cover">
+                        <h3>PUBG: Battlegrounds</h3>
+                        <p>Únete a la batalla en PUBG: Battlegrounds. Sobrevive, saquea y sé el último hombre en pie en este juego de disparos multijugador.</p>
+                        <a href="https://pubg.com/es-es/main" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+				<div class="col-md-6 col-lg-3 mb-4">
+                    <div class="game text-center">
+                        <img src="img/tetris-game-cover.jpg" alt="Portada de Tetris" class="game-cover">
+                        <h3>Tetris (EA)</h3>
+                        <p>Juega al clásico juego de Tetris con un giro moderno. Desafía tus habilidades de resolución de problemas con este divertido juego de rompecabezas.</p>
+                        <a href="https://tetris.com/product-list-videogames" class="btn btn-success btn-download">Descargar ahora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+	<!-- Pie de página -->
+	<footer>
+        <p class="mt-3">&copy; 2023 SoftKeyShop. Todos los derechos reservados.</p>
+    </footer>
+	
+	<!-- Botón flotante -->
+    <div class="floating-btn" id="floatingBtn">
+		<p>🡩</p>
+    </div>
+
+	<!-- Scripts -->
+	<script src="js/cTheme.js"></script>
+	<script src="js/fBtn.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

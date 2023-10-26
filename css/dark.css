@@ -1,0 +1,104 @@
+/* Tema Dark */
+
+/* NavBar */
+.custom-navbar {
+    background-color: #000; 
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menuText .nav-link {
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+#menuText .nav-link:hover {
+    color: #FFFFFF;
+}
+
+
+#menuText .nav-item.active .nav-link {
+    color: #FFFFFF; 
+}
+
+/* Boton de la barra */
+
+.custom-navbar .navbar-toggler {
+    background-color: #333;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.custom-navbar .navbar-toggler:hover {
+    background-color: #2A8BFF;
+}
+
+/* Iconos */
+#menuIcon .nav-item a {
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+}
+
+#menuIcon .nav-item a:hover {
+    filter: brightness(135%);
+}
+
+/* Logo */
+#menuLogo img {
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+}
+
+#menuLogo:hover img {
+    filter: brightness(120%);
+}
+
+/* Cuerpo */
+
+/* Establece un fondo oscuro para el body, pero excluye los elementos con la clase "navBar" */
+body:not(.navBar) {
+    background-color: #181818; /* Fondo oscuro */
+    color: #FFFFFF; /* Texto principal en blanco */
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Personaliza el color del texto para los elementos de encabezado, excluyendo los elementos con la clase "navBar" */
+body:not(.navBar) h1,
+body:not(.navBar) h2,
+body:not(.navBar) h3,
+body:not(.navBar) h4,
+body:not(.navBar) h5,
+body:not(.navBar) h6 {
+    color: #FFFFFF; /* Encabezados en blanco */
+}
+
+/* Personaliza el color del texto para los párrafos, excluyendo los elementos con la clase "navBar" */
+body:not(.navBar) p {
+    color: #EAEAEA; /* Texto del párrafo en gris claro */
+}
+
+/* Personaliza el color de los enlaces, excluyendo los elementos con la clase "navBar" */
+body:not(.navBar) a {
+    color: #EAEAEA; /* Color de los enlaces en azul */
+}
+
+/* Personaliza el color de fondo de los enlaces cuando se colocan sobre ellos, excluyendo los elementos con la clase "navBar" */
+body:not(.navBar) a:hover {
+    color: #FFFFFF; /* Cambia el color del texto del enlace a un tono más claro de azul al pasar el mouse sobre él */
+}
+
+/* pie de pagina */
+footer {
+    background-color: black;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Boton ir arriba */
+.floating-btn {
+    background-color: #333;
+	color: #FFFFFF;
+}
+
+/* comentario */
+.comment {
+	background-color: #000;
+}
